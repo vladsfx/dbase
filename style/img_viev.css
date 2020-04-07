@@ -1,0 +1,34 @@
+.sl_ctr{
+	position:absolute;
+	width:450px;
+	height:300px;
+	left: 550px;
+	top: 80px;
+	overflow:hidden;
+}
+.sldr{
+	position:absolute;
+	width:10000px;
+	height:300px;
+}
+.sldr img{
+	float:left;
+	border: 2px solid #fff;
+}
+.prv_b, .nxt_b{
+	position:absolute;
+	top:120px;
+	display:block;
+	width:45px;
+	height:45px;
+	cursor:pointer;
+}
+.prv_b:hover, .nxt_b:hover{opacity:.7;}
+.prv_b{
+	left:10px;
+	background:url(/img/prv.png) no-repeat;
+	}
+.nxt_b{
+	right:10px;
+	background:url(/img/nxt.png) no-repeat;
+}

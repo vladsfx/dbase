@@ -1,0 +1,32 @@
+.form_clients {
+	position: relative;
+	width: 920px;
+	height: 30px;
+	margin-top: 7px;
+	/*padding: 20px;*/
+	background-color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 0 10px #646366;
+}
+
+.form_clients table {
+    table-layout: fixed; /* Фиксированная ширина ячеек */
+    width: 860px; /* Ширина таблицы */
+	margin-left: 30px;
+	top: 45px;
+}
+
+
+.form_clients td {
+
+	padding: 5px;
+	list-style: none;
+	/*border: 1px solid;*/
+	font-weight: bold;
+	/*color: blue;*/
+	font-size: 14px;
+}
+
+#clients_title {
+	background: #edebeb;
+}

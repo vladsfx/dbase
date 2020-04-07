@@ -1,0 +1,157 @@
+.once {
+    position: relative;
+    width: 80%;
+    height: 510px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #646366;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.once_user {
+    position: relative;
+    width: 90%;
+    height: 510px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #646366;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+
+h2 {
+    text-align: center;
+    color: #a8a8a8;
+}
+
+.once a {
+    text-decoration: none;
+    color: black;
+}
+
+#char p {
+    margin-bottom: 7px;
+}
+
+#char_clients p {
+    margin: 9px auto;
+}
+
+#once tr {
+    height: 23px;
+}
+
+#dicr {
+    width: 98%;
+    height: 90px;
+    border: 1px solid #c7c5c5;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 0;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#dicr_house {
+    width: 98%;
+    height: 90px;
+    border: 1px solid #c7c5c5;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-left: 0;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#dicr_land {
+    margin-top: 55px;
+    padding-top: 5px;
+    /*padding-left: 10px;*/
+}
+
+#dicr_land section {
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 98%;
+    height: 90px;
+    border: 1px solid #c7c5c5;
+    border-radius: 4px;
+}
+
+
+#update_room,
+#act input {
+    position: relative;
+    width: 295px;
+    height: 30px;
+    background-color: #007241;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+#client input {
+    position: relative;
+    width: 295px;
+    height: 30px;
+    background-color: #007241;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+#land input,
+button {
+    position: relative;
+    width: 295px;
+    height: 30px;
+    background-color: #007241;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+#house_once input,
+button {
+    position: relative;
+    width: 295px;
+    height: 30px;
+    background-color: #007241;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#land input[name="del_land"] {
+    background-color: red;
+}
+
+#client input[name="del_client"] {
+    background-color: red;
+}
+
+#act input[name="del_room"] {
+    background-color: red;
+}
+
+#house_once input[name="del_house"] {
+    background-color: red;
+}

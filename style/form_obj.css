@@ -1,0 +1,56 @@
+.form_obj {
+	position: relative;
+	width: 880px;
+	height: 45px;
+	top: 4px;
+	margin: 5px auto;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 4px;
+	box-shadow: 0 0 10px #646366;
+}
+
+.form_obj img {
+	position: absolute;
+	display: inline-block;
+	bottom: 0;
+	margin-top: 2px;
+	top: 0;
+	left: 7px;
+	padding: 0;
+	height: 80px;
+}
+
+
+#bl-1 {
+	position: absolute;
+	display: inline-block;
+	left: 140px;
+	margin-top: 0;
+}
+
+#bl-2 {
+	position: absolute;
+	display: inline-block;
+	left: 350px;
+	margin-top: 0;
+}
+
+#bl-3 {
+	position: absolute;
+	display: inline-block;
+	left: 560px;
+	margin-top: 0;
+}
+
+#bl-4 {
+	position: absolute;
+	display: inline-block;
+	left: 750px;
+	margin-top: 0;
+}
+
+.form_obj i {
+	color: red;
+}
+

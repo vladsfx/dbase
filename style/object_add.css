@@ -1,0 +1,121 @@
+.add {
+    position: relative;
+    width: 80%;
+    height: 500px;
+    margin: 10px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #646366;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+
+}
+
+#adm_update {
+    position: absolute;
+    top: 55%;
+    left: 70%;
+}
+
+#object_add h2 {
+    margin: 0;
+}
+
+#object_add input{
+    width: 95%;
+    height: 25px;
+    margin-top: 3px;
+    padding-left: 5px;
+    border: 1px solid #a1a1a1;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    left: 0;
+    bottom: 0;
+}
+
+#object_add input[type="radio"]{
+    height: 14px;
+}
+
+#object_add select{
+    width: 97%;
+    height: 25px;
+    margin-top: 5px;
+    padding-left: 5px;
+    border: 1px solid #a1a1a1;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+}
+
+#adress {
+    width: 95%;
+    height: 40px;
+    margin-top: 5px;
+    border: 1px solid #a1a1a1;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    resize: none;
+}
+
+#object_add input[type="submit"] {
+    position: relative;
+
+    width: 295px;
+    height: 30px;
+    background-color: #007241;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#land_info {
+    position: absolute;
+    top: 64%;
+    left: 20px;
+}
+
+#update_lands {
+    position: absolute;
+    top: 85%;
+    left: 20px;
+}
+
+#land_info textarea {
+    width: 1000px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+textarea {
+    font-family: Arial, sans-sherif;
+    font-size: 13px;
+    padding-left: 5px;
+    width: 100%;
+    height: 80px;
+    margin-top: 5px;
+    border: 1px solid #a1a1a1;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    resize: none;
+}
+
+.img_ent {
+    position: absolute;
+    width: 22%;
+    left: 750px;
+    bottom: 410px;
+    border: none;
+}
+
+#object_add input[type="file"] {
+    width: 100%;
+    padding: 0;
+    border: none;
+}
+

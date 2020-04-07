@@ -1,0 +1,29 @@
+nav {
+	background-color: #007241;
+	border-top: 1px solid #fff;
+	font-size: 14px;
+	font-family: Arial, sans-sherif;
+	font-weight: bold;
+}
+
+.nav ul {
+	list-style: none;
+	display: table-row;
+	font: 10px;
+	font-family: Arial, sans-sherif;
+}
+
+.nav ul li {
+	display: table-cell;
+	height: 25px;
+	text-align: center;
+
+	padding-top: 5px;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	display: table-cell;
+	width: 20.0em;
+	color: #F5D648;
+}

@@ -1,0 +1,236 @@
+.conteiner1 {
+    position: relative;
+    width: 74%;
+}
+
+#object {
+    position: absolute;
+    margin-top: 10px;
+    /*left: 0;*/
+    width: 75%;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+#adm {
+    position: absolute;
+    top: 10px;
+    left: 35%;
+}
+
+#adm input {
+    width: 80px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #007241;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#adm select {
+    height: 30px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: white;
+}
+
+#us {
+    position: absolute;
+    top: 15px;
+    left: 27%;
+}
+
+#us input {
+    width: 80px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #007241;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.conteiner2 {
+    position: absolute;
+    font-family: Arial, sans-sherif;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 7px;
+    right: 0;
+    width: 24.5%;
+    height: 555px;
+    box-shadow: 0 0 10px #646366;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.conteiner2 fieldset {
+    color: #007241;
+    width: 95%;
+    border-radius: 3%;
+    margin-top: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.conteiner2 p {
+	color: black;
+	margin-top: 5px;
+    margin-left: 5px;
+}
+
+#center {
+	position: absolute;
+	list-style: none;
+	display: table-row;
+    width: 920px;
+   	left: 10px;
+    box-shadow: 0 0 10px #646366;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+#clients_title {
+    position: absolute;
+    list-style: none;
+    display: table-row;
+    width: 920px;
+    height: 30px;
+    left: 10px;
+    margin-top: 60px;
+    box-shadow: 0 0 10px #646366;
+    border-radius: 4px;
+    color: #007241;
+    background-color: #fff;
+}
+
+
+#clients_title table {
+    table-layout: fixed; /* Фиксированная ширина ячеек */
+    width: 95%; /* Ширина таблицы */
+    margin-left: 28px;
+}
+
+#clients_title td {
+   padding: 5px;
+}
+
+
+#center h2 {
+	position: relative;
+	text-align: right;
+	top: 15px;
+	right: 150px;
+	color: #007241;
+	font-size: 24px;
+}
+
+#center li {
+	position: relative;
+	display: table-cell;
+	bottom: 15px;
+	left: 40px;
+	width: 10em;
+}
+
+#obj_list {
+	position: relative;
+	margin-top: 55px;
+	margin-left: 10px;
+}
+
+#obj_list_client {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 10px;
+}
+
+#obj_list a {
+	color: #000000;
+    text-decoration: none;
+}
+
+#obj_list_client a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.conteiner2 input {
+    width: 98%;
+    height: 30px;
+    margin-top: 5px;
+    /*margin-left: 5px;*/
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+}
+
+.conteiner2 select {
+    width: 98%;
+    height: 30px;
+    margin-top: 5px;
+    /*margin-left: 5px;*/
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+}
+
+
+.conteiner2_clients input {
+    width: 98%;
+    height: 30px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+}
+
+.conteiner2 button {
+	display: inline-block;
+    width: 22.0em;
+    height: 30px;
+    margin: 5px 10px;
+    color: #ffffff;
+    background-color: #007241;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.conteiner2_clients button {
+    width: 22.0em;
+    height: 30px;
+    margin: 5px;
+    display: inline-block;
+    padding: 5px 15px;
+    color: #ffffff;
+    background-color: #007241;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#back button {
+	position: fixed;
+	width: 22.0em;
+    height: 30px;
+    color: #ffffff;
+    background-color: #007241;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 5px;
+    cursor: pointer;
+}
